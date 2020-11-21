@@ -37,11 +37,11 @@ ____________________________
 
 ### 2. SMOTE Oversampling
 
-•	The accuracy score of 0.662 is quite low.
-•	Overall precision score is 0.99.
-•	High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case (identical to Naïve Random Oversampling).
-•	Low risk has a high precision level of 1.0.
-•	Despite high precision for low risk credit card, only about 69% (11802) would be predicted true positive.
+* The accuracy score of 0.662 is quite low.
+* Overall precision score is 0.99.
+* High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case (identical to Naïve Random Oversampling).
+* Low risk has a high precision level of 1.0.
+* Despite high precision for low risk credit card, only about 69% (11802) would be predicted true positive.
 
 
 ***Confusion Matrix***
