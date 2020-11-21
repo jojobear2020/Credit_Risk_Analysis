@@ -6,12 +6,12 @@ TBU
 
 ## Important Metrics 
 
-1.	*pre* – precision, which is a measure of result relevancy;
-2.	*rec* – recall, which is the same as sensitivity. Recall is a measure of how many truly relevant results are returned;
-3.	*spe* – specificity;
-4.	*f1* – harmonic average of the precision and recall;
-5.	*geo* – geometric mean of specificity and sensitivity;
-6.	*iba* – index of imbalanced accuracy.
+1.	**pre** – precision, which is a measure of result relevancy;
+2.	**rec** – recall, which is the same as sensitivity. Recall is a measure of how many truly relevant results are returned;
+3.	**spe** – specificity;
+4.	**f1** – harmonic average of the precision and recall;
+5.	**geo** – geometric mean of specificity and sensitivity;
+6.	**iba** – index of imbalanced accuracy.
 
 ## Machine Learning Models
 
