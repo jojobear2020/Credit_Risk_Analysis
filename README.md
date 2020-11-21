@@ -23,7 +23,7 @@ TBU
 * Low risk has a high precision level of 1.0.
 * Despite high precision for low risk credit card, only about 61% (10433) would be predicted false.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 
 * Out of the 101 actual instances (first row), the classifier predicted correctly 70 of them.
 * Out of the 17104 actual instances (second row), the classifier predicted correctly 10393 of them
@@ -31,6 +31,8 @@ TBU
 
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/naive_random_oversampling_all.PNG)
+
+____________________________
 
 
 ### 2. SMOTE Oversampling
@@ -41,13 +43,14 @@ TBU
 •	Low risk has a high precision level of 1.0.
 •	Despite high precision for low risk credit card, only about 69% (11802) would be predicted true positive.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 •	 Out of the 101 actual instances (first row), the classifier predicted correctly 64 of them.
 •	Out of the 17104 actual instances (second row), the classifier predicted correctly 11813 of them
 •	Out of sample of 17205, the classifier predicted correctly about 11877 of them. 
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smote_oversampling_all.PNG)
 
+__________________________
 
 ### 3. Undersampling
 
@@ -57,7 +60,7 @@ TBU
 * Low risk has a high precision level of 1.0.
 * Despite high precision for low risk credit card, only about 42% (7184) would be predicted true positive.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 
 * Out of the 101 actual instances (first row), the classifier predicted correctly 68 of them.
 * Out of the 17104 actual instances (second row), the classifier predicted correctly 7100 of them
@@ -66,6 +69,7 @@ TBU
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/undersampling_all.PNG)
 
+_____________________________
 
 ### 4. SMOTEENN
 
@@ -75,7 +79,7 @@ TBU
 * Low risk has a high precision level of 1.0.
 * Despite high precision for low risk credit card, only about 57% (9750) would be predicted true positive.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 79 of them.
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 9795 of them
@@ -84,6 +88,7 @@ TBU
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smoteenn_all.PNG)
 
+______________________
 
 ### 5. Balanced Random Forest Classifier
 
@@ -93,7 +98,7 @@ TBU
 * Low risk has a high precision level of 1.0.
 * Despite high precision for low risk credit card, about 87% (14880) would be predicted true positive.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 79 of them.
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 9795 of them.
@@ -102,7 +107,7 @@ TBU
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/balanced_random_forester_classifier_all.PNG)
 
-
+_______________________________
 
 ### 6. Easy Ensemble
 
@@ -112,7 +117,7 @@ TBU
 * Low risk has a high precision level of 1.0.
 * About 90% (15394) of low risk instances would be predicted true positive.
 
-*** Confusion Matrix***
+***Confusion Matrix***
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 94 of them.
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 15398 of them
@@ -120,6 +125,8 @@ TBU
 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/easy_ensemble_adaboost_classifier_all.PNG)
+
+_________________________
 
 ## Summary
 
