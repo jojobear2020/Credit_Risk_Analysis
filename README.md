@@ -87,7 +87,6 @@ _____________________________
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 9795 of them
 * Out of sample of 17205, the classifier predicted correctly about 9874 of them. 
 
-
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smoteenn_all.PNG)
 
 ______________________
