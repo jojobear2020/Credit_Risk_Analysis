@@ -21,7 +21,7 @@ TBU
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case.
 * Low risk has a high precision level of 1.0.
-* Despite high precision for low risk credit card, only about 61% (10433) would be predicted false.
+* Despite high precision for low risk credit card, only about 61% (10433) would be predicted true positive.
 
 ***Confusion Matrix***
 
@@ -46,9 +46,9 @@ ____________________________
 
 ***Confusion Matrix***
 
-•	Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them.
-•	Out of the 17104 low risk instances (second row), the classifier predicted correctly 11813 of them.
-•	Out of sample of 17205, the classifier predicted correctly about 11877 of them. 
+* Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them.
+* Out of the 17104 low risk instances (second row), the classifier predicted correctly 11813 of them.
+* Out of sample of 17205, the classifier predicted correctly about 11877 of them. 
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smote_oversampling_all.PNG)
 
