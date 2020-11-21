@@ -46,7 +46,7 @@ ____________________________
 
 ***Confusion Matrix***
 
-•	 Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them.
+•	Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them.
 •	Out of the 17104 low risk instances (second row), the classifier predicted correctly 11813 of them
 •	Out of sample of 17205, the classifier predicted correctly about 11877 of them. 
 
