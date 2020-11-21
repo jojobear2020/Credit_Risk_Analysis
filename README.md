@@ -43,6 +43,7 @@ ____________________________
 •	Low risk has a high precision level of 1.0.
 •	Despite high precision for low risk credit card, only about 69% (11802) would be predicted true positive.
 
+
 ***Confusion Matrix***
 
 •	 Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them.
