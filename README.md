@@ -160,8 +160,8 @@ From our results, the most accuarate model is the last one - ***Easy Ensemble Ad
 
 ***Balanced Random Forest Classifier*** also delivers acceptable results; however, it is not as high. 
 
-Based on this analysis, we can recommned to use these two models.
+Based on this analysis, we can recommned to use these two mentioned models.
 
-It is important to note is that there is no one size fits all when working with imbalanced datasets. A **suggestion** would be to actually try using all of the above approaches and see whatever works best in each particular case.
+It is also important to note is that there is no one size fits all when working with imbalanced datasets. A **suggestion** would be to actually try using all of the above approaches and see whatever works best in each particular case.
 
 
