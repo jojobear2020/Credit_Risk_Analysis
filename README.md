@@ -14,14 +14,15 @@ TBU
 1.	**pre** – precision, which is a measure of result relevancy;
 2.	**rec** – recall, which is the same as sensitivity. Recall is a measure of how many truly relevant results are returned;
 3.	**spe** – specificity;
-4.	**f1** – harmonic average of the precision and recall. Simply stated the F1 score sort of maintains a balance between the precision and recall for your classifier. **When we have imballanced data, this metric may be the best to use**.
-
-**If precision is low, the F1 is low, and if the recall is low again, the F1 score is low**.
-
-![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/f1_formula.PNG)
-
+4.	**f1** – harmonic average of the precision and recall; 
 5.	**geo** – geometric mean of specificity and sensitivity;
 6.	**iba** – index of imbalanced accuracy.
+
+
+**When we have imballanced data (like in our case), F1 metric is the best to use. Simply stated the F1 score sort of maintains a balance between the precision and recall for your classifier. If precision is low, the F1 is low, and if the recall is low again, the F1 score is low**.
+
+
+![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/f1_formula.PNG)
 
 _____________________________________
 
