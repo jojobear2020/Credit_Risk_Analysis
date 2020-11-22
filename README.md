@@ -155,7 +155,7 @@ _________________________
 
 The summary below shows the key metrics reviewed in this analysis.  If our data was balanced, we could use accuarcy as our main KPI; however, we have a very imbalanced model and it's better to use F1. 
 
-![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models_details.PNG)
+![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models.PNG)
 
 From our results, the most accuarate model is the last one - ***Easy Ensemble AdaBooster Classifier***. 
 
