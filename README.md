@@ -15,7 +15,6 @@ To employ different techniques to train and evaluate models with unbalanced clas
 #### Dataset
 Credit card credit dataset from LendingClub, a peer-to-peer lending services company.
 
-
 ## Important Metrics 
 
 1.	**pre** – precision, which is a measure of result relevancy;
