@@ -22,11 +22,13 @@ TBU
 
 ### 1. Naive Random Oversampling
 
-* The accuracy score of **0.650** is quite low. The number represents the sum of diagonals of the confusion matric divided by the total test sample size of 17205.
+* The accuracy score of **0.650** is quite low.
+
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case.
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.75
+* Recall/sensitivity is 61% - the number represents the sum of diagonals of the confusion matric divided by the total test sample size of 17205.
+* **F1 score is 0.75**, which is a combination of metric mentioned above. **When we have imballanced data, this metric may be the best to use**
 
 
 ***Confusion Matrix***
@@ -47,7 +49,7 @@ ____________________________
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case (identical to Naïve Random Oversampling).
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.63
+* **F1 score is 0.63**
 
 
 ***Confusion Matrix***
@@ -66,7 +68,7 @@ __________________________
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case (identical to Naïve Random Oversampling).
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.67
+* **F1 score is 0.67**
 
 
 ***Confusion Matrix***
@@ -87,7 +89,7 @@ _____________________________
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case (identical to Naïve Random Oversampling).
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.78
+* **F1 score is 0.78**
 
 
 ***Confusion Matrix***
@@ -106,7 +108,7 @@ ______________________
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.03 (higher than prior 4 models, but we still cannot rely on its results in this particular case.
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.70
+* **F1 score is 0.70**
 
 
 ***Confusion Matrix***
@@ -127,7 +129,7 @@ _______________________________
 * Overall precision score is 0.99.
 * High risk has extremely low precision of 0.05 (the highest out of all models, but we still cannot rely on its results in this particular case.
 * Low risk has a high precision level of 1.0.
-* **F1 metric is 0.94** - the highest out of all models
+* **F1 score is 0.94** - the highest out of all models
 
 
 ***Confusion Matrix***
