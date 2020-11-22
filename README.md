@@ -4,6 +4,11 @@
 
 TBU
 
+## Analysis approach: 
+
+
+
+
 ## Important Metrics 
 
 1.	**pre** – precision, which is a measure of result relevancy;
@@ -138,7 +143,11 @@ _________________________
 
 ## Summary
 
-Recommendation -  use accuracy only if the classes are perfectly balanced, and otherwise use F1 and MCC. It is also useful to see ratio of positives and negative estimation via precision and recall.
+The summary below shows the key metrics reviewed in this analysis.  If our data was balanced, we could use accuarcy as our main KPI, but in this case we used F1. 
+
+The most accuarate model is the last one - the Easy Ensemble AdaBooster Classifier. This is the one we recommend to use, given the current analysis.
+
+Balanced Random Forest Classifier also delivers acceptable results; however, it is not as hogh as the latter.
 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models.PNG)
