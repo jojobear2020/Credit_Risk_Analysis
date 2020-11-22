@@ -2,12 +2,7 @@
 
 ## Analysis Purpose
 
-TBU
-
-### Analysis approach: 
-
-Because we worked with the unbalanced data, we needed to employ different techniques to train and evaluate models with unbalanced classes.
-
+To employ different techniques to train and evaluate models with unbalanced classes by working with the imballanced data.
 
 ### Methodology
 * use the **imbalanced-learn** and **scikit-learn** libraries to build and evaluate models using resampling;
@@ -16,7 +11,6 @@ Because we worked with the unbalanced data, we needed to employ different techni
 * use a combinatorial approach of over- and undersampling using the **SMOTEENN** algorithm;
 * compare two new machine learning models that reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**, to predict credit risk;
 * evaluate the performance of these models.
-
 
 ### Dataset
 credit card credit dataset from LendingClub, a peer-to-peer lending services company.
@@ -32,7 +26,7 @@ credit card credit dataset from LendingClub, a peer-to-peer lending services com
 6.	**iba** – index of imbalanced accuracy.
 
 
-**When we have imballanced data (like in our case), F1 metric is the best to use. Simply stated the F1 score sort of maintains a balance between the precision and recall for the classifier. If precision is low, the F1 is low, and if the recall is low again, the F1 score is low**.
+**When we have unballanced data (like in our case), F1 metric is the best to use. Simply stated the F1 score sort of maintains a balance between the precision and recall for the classifier. If precision is low, the F1 is low, and if the recall is low again, the F1 score is low**.
 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/f1_formula.PNG)
