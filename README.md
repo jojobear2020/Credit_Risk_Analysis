@@ -31,10 +31,7 @@ _____________________________________
 ### 1. Naive Random Oversampling
 
 * The accuracy score of **0.650** is quite low.
-
 * Overall precision score is 0.99.
-* High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case.
-* Low risk has a high precision level of 1.0.
 * Recall/sensitivity score is 0.61.
 * **F1 score is 0.75**.
 
