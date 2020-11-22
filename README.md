@@ -4,7 +4,7 @@
 
 To employ different techniques to train and evaluate models with unbalanced classes by working with the imballanced data.
 
-### Methodology
+#### Methodology
 * use the **imbalanced-learn** and **scikit-learn** libraries to build and evaluate models using resampling;
 * oversample the data using the **RandomOverSampler** and **SMOTE** algorithms;
 * undersample the data using the **ClusterCentroids** algorithm;
@@ -12,7 +12,7 @@ To employ different techniques to train and evaluate models with unbalanced clas
 * compare two new machine learning models that reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**, to predict credit risk;
 * evaluate the performance of these models.
 
-### Dataset
+#### Dataset
 Credit card credit dataset from LendingClub, a peer-to-peer lending services company.
 
 
