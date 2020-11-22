@@ -14,9 +14,16 @@ TBU
 1.	**pre** – precision, which is a measure of result relevancy;
 2.	**rec** – recall, which is the same as sensitivity. Recall is a measure of how many truly relevant results are returned;
 3.	**spe** – specificity;
-4.	**f1** – harmonic average of the precision and recall;
+4.	**f1** – harmonic average of the precision and recall. Simply stated the F1 score sort of maintains a balance between the precision and recall for your classifier. **When we have imballanced data, this metric may be the best to use**.
+
+**If precision is low, the F1 is low, and if the recall is low again, the F1 score is low**.
+
+![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/f1_formula.PNG)
+
 5.	**geo** – geometric mean of specificity and sensitivity;
 6.	**iba** – index of imbalanced accuracy.
+
+_____________________________________
 
 ## Machine Learning Models
 
@@ -28,7 +35,7 @@ TBU
 * High risk has extremely low precision of 0.01 and we cannot rely on its results in this particular case.
 * Low risk has a high precision level of 1.0.
 * Recall/sensitivity is 61% - the number represents the sum of diagonals of the confusion matric divided by the total test sample size of 17205.
-* **F1 score is 0.75**, which is a combination of metric mentioned above. **When we have imballanced data, this metric may be the best to use**
+* **F1 score is 0.75**, which is a combination of metric mentioned above.
 
 
 ***Confusion Matrix***
