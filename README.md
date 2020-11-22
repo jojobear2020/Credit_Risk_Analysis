@@ -4,9 +4,22 @@
 
 TBU
 
-## Analysis approach: 
+### Analysis approach: 
+
+Because we worked with the unbalanced data, we needed to employ different techniques to train and evaluate models with unbalanced classes.
 
 
+### Methodology
+* use the **imbalanced-learn** and **scikit-learn** libraries to build and evaluate models using resampling;
+* oversample the data using the **RandomOverSampler** and **SMOTE** algorithms;
+* undersample the data using the **ClusterCentroids** algorithm;
+* use a combinatorial approach of over- and undersampling using the **SMOTEENN** algorithm;
+* compare two new machine learning models that reduce bias, **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**, to predict credit risk;
+* evaluate the performance of these models.
+
+
+### Dataset
+credit card credit dataset from LendingClub, a peer-to-peer lending services company.
 
 
 ## Important Metrics 
