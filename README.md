@@ -28,7 +28,7 @@ TBU
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 70 of them (true positive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 10393 of them (true negative).
-* Out of sample of 17205, the classifier predicted correctly about 10463 (61%) of them; 6742 (39%) were false/inaccurate predictions.
+* Out of sample of 17205, the classifier predicted correctly/true about 10463 (61%) of them; 6742 (39%) were false/inaccurate predictions.
 
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/naive_random_oversampling_all.PNG)
@@ -49,7 +49,7 @@ ____________________________
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 64 of them (true positive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 11813 of them (ture negative).
-* Out of sample of 17205, the classifier predicted correctly about 11877 (69%) of them; 5328 (31%) were false/inaccurate predictions
+* Out of sample of 17205, the classifier predicted correctly/true about 11877 (69%) of them; 5328 (31%) were false/inaccurate predictions
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smote_oversampling_all.PNG)
 
@@ -68,7 +68,7 @@ __________________________
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 68 of them (true positive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 7100 of them (true negative).
-* Out of sample of 17205, the classifier predicted correctly about 7168 (42%) of them; 10037 (58%) were false/inaccurate predictions.
+* Out of sample of 17205, the classifier predicted correctly/true about 7168 (42%) of them; 10037 (58%) were false/inaccurate predictions.
 
 
 
@@ -89,7 +89,7 @@ _____________________________
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 79 of them (true positive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 9795 of them (true negative).
-* Out of sample of 17205, the classifier predicted correctly about 9874 (57%) of them; 7331 (43%) were false/inaccurate predictions.
+* Out of sample of 17205, the classifier predicted correctly/true about 9874 (57%) of them; 7331 (43%) were false/inaccurate predictions.
 
 ![]( https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/smoteenn_all.PNG)
 
@@ -108,7 +108,7 @@ ______________________
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 71 of them (true positive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 14951 of them (true negative).
-* Out of sample of 17205, the classifier predicted correctly about 15022 (87%) of them;  2183 (13%) were false/inaccurate predictions.
+* Out of sample of 17205, the classifier predicted correctly/true about 15022 (87%) of them;  2183 (13%) were false/inaccurate predictions.
 
 
 
@@ -129,7 +129,7 @@ _______________________________
 
 * Out of the 101 high risk instances (first row), the classifier predicted correctly 94 of them (true posotive).
 * Out of the 17104 low risk instances (second row), the classifier predicted correctly 15398 of them (true negative).
-* Out of sample of 17205, the classifier predicted correctly about 15492 (90%) of them;  1713 (10%) were false/inaccurate predictions.
+* Out of sample of 17205, the classifier predicted correctly/true about 15492 (90%) of them;  1713 (10%) were false/inaccurate predictions.
 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/easy_ensemble_adaboost_classifier_all.PNG)
