@@ -158,6 +158,4 @@ The most accuarate model is the last one - the Easy Ensemble AdaBooster Classifi
 
 Balanced Random Forest Classifier also delivers acceptable results; however, it is not as high as the latter.
 
-
-![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models.PNG)
-
+![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models_det.PNG)
