@@ -13,7 +13,7 @@ To employ different techniques to train and evaluate models with unbalanced clas
 * evaluate the performance of these models.
 
 ### Dataset
-credit card credit dataset from LendingClub, a peer-to-peer lending services company.
+Credit card credit dataset from LendingClub, a peer-to-peer lending services company.
 
 
 ## Important Metrics 
