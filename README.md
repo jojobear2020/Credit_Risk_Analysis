@@ -145,10 +145,16 @@ _________________________
 
 ## Summary
 
-The summary below shows the key metrics reviewed in this analysis.  If our data was balanced, we could use accuarcy as our main KPI, but in this case we used F1. 
-
-The most accuarate model is the last one - the Easy Ensemble AdaBooster Classifier. This is the one we recommend to use, given the current analysis.
-
-Balanced Random Forest Classifier also delivers acceptable results; however, it is not as high as the latter.
+The summary below shows the key metrics reviewed in this analysis.  If our data was balanced, we could use accuarcy as our main KPI; however, we have a very imbalanced model and it's better to use F1. 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models_det.PNG)
+
+From our results, the most accuarate model is the last one - the Easy Ensemble AdaBooster Classifier. 
+
+Balanced Random Forest Classifier also delivers acceptable results; however, it is not as high. 
+
+Based on this analysis, we can recommned to use these two models mentioned above.
+
+It is important to note is that there is no one size fits all when working with imbalanced datasets. A suggestion would be to actually try using all of the above approaches and see whatever works best in each particular case.
+
+
