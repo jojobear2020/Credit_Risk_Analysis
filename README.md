@@ -140,3 +140,6 @@ _________________________
 
 Recommendation -  use accuracy only if the classes are perfectly balanced, and otherwise use F1 and MCC. It is also useful to see ratio of positives and negative estimation via precision and recall.
 
+
+![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models.PNG)
+
