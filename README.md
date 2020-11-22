@@ -134,7 +134,7 @@ _______________________________
 
 ### 6. Easy Ensemble
 
-* The accuracy score of **0.915**.
+* The accuracy score of **0.915** - the highest out of six models.
 * Overall precision score is 0.99.
 * Recall/sensitivity score is 0.90.
 * **F1 score is 0.94** - the highest out of all models
