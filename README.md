@@ -147,7 +147,7 @@ The summary below shows the key metrics reviewed in this analysis.  If our data 
 
 The most accuarate model is the last one - the Easy Ensemble AdaBooster Classifier. This is the one we recommend to use, given the current analysis.
 
-Balanced Random Forest Classifier also delivers acceptable results; however, it is not as hogh as the latter.
+Balanced Random Forest Classifier also delivers acceptable results; however, it is not as high as the latter.
 
 
 ![](https://github.com/jojobear2020/Credit_Risk_Analysis/blob/main/images/summary_stats_all_models.PNG)
